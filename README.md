@@ -16,8 +16,3 @@ You can click the Preview link to take a look at your changes.
 
 
 
-# Summary
-## Lazy man
-## Automate all around
-## Fire to code.
-## Do it right to not waste the time on fixing
