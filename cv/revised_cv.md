@@ -2,7 +2,7 @@
 
 **Generative AI Specialist | Full-Stack Software Engineer**
 
-Prague, Czechia | $phone$ | $email$ | [LinkedIn Profile (linkedin.com/in/lery-o)](https://www.linkedin.com/in/lery-o)
+Prague, Czechia | ${phone} | ${email} | [LinkedIn Profile (www.linkedin.com/in/lery-o)](www.linkedin.com/in/lery-o)
 
 ## **Summary**
 
