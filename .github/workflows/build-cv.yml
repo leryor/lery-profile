@@ -3,7 +3,7 @@ name: Build CVs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   built-pdf-cv:
