@@ -28,6 +28,9 @@ jobs:
       - name: Install the project dependencies
         run: poetry install
       - name: Convert md to pdf
+        env:
+          PHONE: {{ secrets.PHONE }}
+          EMAIL: {{ secrets.EMAIL }}
         run: poetry run export-cv -v
       - name: Upload CVs
         uses: actions/upload-artifact@v2
