@@ -40,13 +40,16 @@ def convert_directory(input_dir: Path, output_dir: Path, phone: Optional[str], e
                 markdown_to_pdf(input_file, output_file, phone, email)
 
 
-if __name__ == '__main__':
+def main():
     from dotenv import load_dotenv
     load_dotenv()  # take environment variables from .env.
-
     convert_directory(
         input_dir=Path('./cv'),
         output_dir=Path('./build'),
         phone=os.environ.get("PHONE"),
         email=os.environ.get("EMAIL")
     )
+
+
+if __name__ == '__main__':
+    main()

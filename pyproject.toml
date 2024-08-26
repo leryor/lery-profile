@@ -5,6 +5,9 @@ version = "0.1.0"
 description = ""
 authors = ["Lery <orlov332@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "*.py" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -17,4 +20,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-export-cv = 'export_cv'
+export-cv = "export_cv:main"
