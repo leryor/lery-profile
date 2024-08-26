@@ -2,19 +2,12 @@
 
 **Generative AI Specialist | Full-Stack Software Engineer**
 
-Prague, Czechia | ${phone} | ${email} | [LinkedIn Profile (www.linkedin.com/in/lery-o)](www.linkedin.com/in/lery-o)
+Prague, Czechia | {phone} | {email} | [linkedin.com/in/lery-o](www.linkedin.com/in/lery-o)
 
-## **Summary**
 
-Highly motivated and results-driven Software Engineer with 20+ years of experience, specializing in Generative AI and Large Language Models. Proven ability to design, develop, and deploy innovative AI-driven solutions using Python, cloud technologies (AWS, Azure), and frameworks like LangChain and FastAPI. Expertise in full-stack development with Java, Spring Boot, and React.JS, combined with a passion for leveraging AI to solve complex business challenges. Seeking a challenging role where I can contribute to the advancement of Generative AI and deliver impactful results.
+## Summary
 
-## **Key Skills**
-
-**Generative AI & LLM:** Python, LangChain, FastAPI, Streamlit, Docker, Azure OpenAI Service, AWS Bedrock, Multi-Agent Systems (LangGraph), Retrieval-Augmented Generation (RAG)
-
-**Full-Stack Development:** Java, Spring Boot, Spring Framework, React.JS, Node.JS, TypeScript, JavaScript, C++, PostgreSQL, MySQL, MongoDB, Git, Jenkins, Jira, Confluence
-
-**Cloud Technologies:** AWS, Azure
+Results-driven Software Engineer with over two decades of experience in full-stack development and a passion for leveraging AI to solve complex challenges. Proven ability to design, develop, and deploy innovative solutions across diverse industries, from finance and e-commerce to workforce management. Currently focused on applying expertise in Generative AI and Large Language Models, utilizing **Python** and **cloud technologies** to create intelligent applications that deliver impactful results. Strong background in **Java**, **Spring Boot**, **React.JS**, combined with a commitment to continuous learning and collaboration.
 
 ## **Experience**
 
