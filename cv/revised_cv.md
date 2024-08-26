@@ -56,16 +56,6 @@ Results-driven Software Engineer with over two decades of experience in full-sta
     * Streamlined lead processing by integrating all customer landing pages with the CRM.
     * Achieved a high level of customization by utilizing a BPMN engine and visual tools.
 
-### **Deutsche Bank, Lead Software Engineer - Currency Option Pricing Project** | February 2010 - June 2013
-
-* Played a pivotal role in the DBAX project, a highly sought-after and science-based programming library.
-* Implemented C++/C#/Java wrappers for client code, developed unit and integration tests, and designed a server application using Spring, Vaadin, and MongoDB.
-* **Achievements:**
-    * Ensured OS/Platform independence to onboard five new projects.
-    * Developed a Domain Specific Language (DSL) for declaring library interfaces, reducing development efforts by more than half.
-    * Substituted standard Java/.Net object serialization with Google Protocol Buffer (Protobuf), resulting in a serialization speed improvement of more than 2 times.
-
-
 ## **Education**
 
 **Moscow State Technological University "Stankin"** | Engineer's degree, Automate Technological Processes and Productions | 1996 - 2003
