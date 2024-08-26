@@ -29,8 +29,8 @@ jobs:
         run: poetry install
       - name: Convert md to pdf
         env:
-          PHONE: ${{ secrets.PHONE }}
-          EMAIL: ${{ secrets.EMAIL }}
+          PHONE: ${{ secrets.cz.PHONE }}
+          EMAIL: ${{ secrets.cz.EMAIL }}
         run: poetry run export-cv -v
       - name: Upload CVs
         uses: actions/upload-artifact@v2
