@@ -13,13 +13,13 @@
 
 
 ## Tools/Technologies
- - TensorFlow
- - Tabular Data
- - BigQuery
- - Trifacta/Alteryx/Google Cloud Dataprep
+ - [TensorFlow](https://www.tensorflow.org/)
+ - [Tabular Data](https://en.wikipedia.org/wiki/Table_(information))
+ - [BigQuery](https://cloud.google.com/bigquery)
+ - [Trifacta/Alteryx/Google Cloud Dataprep](https://cloud.google.com/dataprep)
  - [Apache Beam](https://tour.beam.apache.org/)
- - Apache Spark
- - Apache Hadoop
+ - [Apache Spark](https://spark.apache.org/)
+ - [Apache Hadoop](https://hadoop.apache.org/)
 
 
 ## Performance metrics
