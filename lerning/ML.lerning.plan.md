@@ -35,3 +35,6 @@
  - [Root Mean Squared Error](https://en.wikipedia.org/wiki/Root-mean-square_deviation)
  - [R2 Score](https://en.wikipedia.org/wiki/Coefficient_of_determination)
  - [Adjusted R2 Score](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2)
+
+## Other Learning Resources
+ - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
