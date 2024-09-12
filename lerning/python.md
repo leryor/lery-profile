@@ -9,6 +9,8 @@
  - [Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
  - [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
  - [Python for Data Science Cheat Sheet](https://www.datacamp.com/community/data-science-cheatsheets)
+ - [Generators in Python](https://realpython.com/introduction-to-python-generators/)
+ - [Demystifying Yield in Python](https://aaronnotes.com/2023/04/demystifying-yield-in-python/)
 
 ## Python Parallel Programming
  - [Async IO in Python](https://realpython.com/async-io-python/)
