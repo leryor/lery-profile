@@ -2,9 +2,13 @@ import os
 from pathlib import Path
 from typing import Optional
 
+from loguru import logger
 from markdown_pdf import MarkdownPdf, Section
 
+from app_logging import logging
 
+
+@logging()
 def load_cv(md_file: Path, phone: Optional[str], email: Optional[str]) -> str:
     assert phone is not None, "Phone number is required"
     assert email is not None, "Email is required"
@@ -15,6 +19,7 @@ def load_cv(md_file: Path, phone: Optional[str], email: Optional[str]) -> str:
     return cv.format(phone=phone, email=email)
 
 
+@logging()
 def markdown_to_pdf(md_file: Path, pdf_file: Path, phone: Optional[str], email: Optional[str]) -> None:
     assert md_file.suffix == '.md', f"Expected markdown file, got {md_file}"
     assert md_file.is_file(), f"File {md_file} does not exist"
@@ -28,18 +33,21 @@ def markdown_to_pdf(md_file: Path, pdf_file: Path, phone: Optional[str], email: 
     pdf.save(pdf_file)
 
 
+@logging()
 def convert_directory(input_dir: Path, output_dir: Path, phone: Optional[str], email: Optional[str]):
     for dir_path, _, file_names in input_dir.walk():
-        print(f"Found directory: {dir_path}")
+        logger.info("Found directory: {dir_path}", dir_path=dir_path)
 
         for file in file_names:
             input_file = Path(dir_path, file)
             if input_file.suffix == '.md':
                 output_file = output_dir.joinpath(input_file.relative_to(input_dir).with_suffix('.pdf'))
-                print(f"Converting {input_file} to {output_file}")
+                logger.info("Converting {input_file} to {output_file}", input_file=input_file, output_file=output_file)
                 markdown_to_pdf(input_file, output_file, phone, email)
 
 
+@logging()
+@logger.catch(reraise=True)
 def main():
     from dotenv import load_dotenv
     load_dotenv()  # take environment variables from .env.
@@ -52,4 +60,6 @@ def main():
 
 
 if __name__ == '__main__':
+    logger.info("Converting CVs to PDFs.")
     main()
+    logger.success("All files successfully converted.")
