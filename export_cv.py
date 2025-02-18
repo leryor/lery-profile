@@ -41,7 +41,9 @@ def convert_directory(input_dir: Path, output_dir: Path, phone: Optional[str], e
         for file in file_names:
             input_file = Path(dir_path, file)
             if input_file.suffix == '.md':
-                output_file = output_dir.joinpath(input_file.relative_to(input_dir).with_suffix('.pdf'))
+                output_file = output_dir.joinpath(
+                    input_file.relative_to(input_dir).with_name(f"Lery_Orlov_{input_file.name}").with_suffix('.pdf')
+                )
                 logger.info("Converting {input_file} to {output_file}", input_file=input_file, output_file=output_file)
                 markdown_to_pdf(input_file, output_file, phone, email)
 
