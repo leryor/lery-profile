@@ -1,6 +1,6 @@
 # **Valery (Lery) Orlov**
 
-**Full-Stack Software Engineer | Generative AI Specialist**
+**Full-Stack Software Engineer | Gen AI Engineer**
 
 Prague, Czechia | {phone} | {email} | [linkedin.com/in/lery-o](www.linkedin.com/in/lery-o)
 
@@ -11,25 +11,43 @@ Results-driven Software Engineer with over two decades of experience in full-sta
 ### **EPAM Systems | Generative AI Projects**
 *Generative AI Engineer* | January 2024 - Present
 
-**Project Objective:** Led a series of proof of concept (POC) projects focusing on generative AI technologies to solve various business challenges.
+**Objective:** Led a series of projects applying generative AI (GenAI) technologies to solve various business challenges
+across multiple industries.
 
 **Key Responsibilities:**
-* Designed and developed multiple AI-driven applications, leveraging generative AI, large language models, and various cloud services.
-* Coordinated and implemented projects using tools and technologies such as Python, LangChain, Streamlit, Docker, Azure OpenAI Service, AWS Bedrock, and more.
-* Integrated applications with external APIs, ensuring seamless data retrieval and processing.
-* Developed multi-agent solutions with LangGraph to handle complex workflows and data processing tasks.
+
+* Designed and developed AI-driven applications, leveraging generative AI, large language models, and advanced cloud
+  services.
+* Integrated external APIs, optimized data pipelines, and implemented multi-agent solutions for complex workflows and
+  data processing.
+* Conducted performance analysis, optimization, and scalability planning for AI systems.
+* Collaborated with cross-functional teams to deliver AI solutions tailored to specific business needs.
 
 **Key Projects:**
-* **Generative AI for Marketing Material Analysis:** Validated the use of generative AI for analyzing marketing materials, ensuring brand compliance, and design consistency.
-* **Travel Planner Chatbot Development:** Created a chatbot to assist users in planning and booking vacations, handling ambiguous user requests, and integrating with APIs for real-time data.
-* **Voice of Customer Analysis POC:** Developed a solution for analyzing customer feedback using large language models and retrieval-augmented generation (RAG) techniques.
-* **Admin AI Assistant Development:** Built an AI assistant to interact with device telemetry data, provide analytics, data visualization, and apply actions to devices.
-* **Climate Data Chatbot Development:** Developed a chatbot to utilize global climate data for solving private and commercial tasks, handling asynchronous data requests, and generating actionable insights.
+
+* **Warehouse Inventory Analysis Chatbot:** Built a chatbot for analyzing warehouse inventory data stored in Databricks,
+  conducting Pareto analysis, and generating optimization recommendations. The project included performance tuning,
+  monitoring system integration (Prometheus, Grafana), and scalability strategy development.
+* **Service Engineer Assistant Chatbot:** Designed a chatbot to assist service engineers in identifying probable
+  maintenance operations and necessary spare parts based on historical service tickets. The solution utilized RAG
+  architecture with an ETL pipeline for preparing a vector database and language translation for user queries.
+* **Generative AI for Marketing Material Analysis:** Developed a solution to analyze marketing materials, ensuring brand
+  compliance, and design consistency using Python, Jupyter Notebook, and LangChain.
+* **Travel Planner Chatbot Development:** Created a chatbot to assist users in planning and booking vacations, handling
+  ambiguous user requests, and integrating with real-time APIs for data retrieval.
+* **Voice of Customer Analysis:** Built an AI-driven application to analyze customer feedback using retrieval-augmented
+  generation (RAG) techniques and integrated it with Neo4J and Streamlit.
+* **Admin AI Assistant Development:** Designed an AI assistant to process device telemetry data, provide analytics,
+  generate visualizations, and recommend actions using LangGraph and Plotly.
+* **Climate Data Chatbot Development:** Developed a chatbot to process global climate data for solving household and
+  commercial tasks, leveraging asynchronous API requests and multi-agent systems.
 
 **Achievements:**
-* Successfully demonstrated the feasibility and effectiveness of generative AI in various domains.
-* Enhanced user experience by providing accurate and actionable insights through AI-driven solutions.
-* Improved the integration and performance of AI applications, contributing to business goals and customer satisfaction.
+
+* Successfully implemented AI solutions that addressed diverse business challenges, from marketing and travel to
+  inventory management and service engineering.
+* Enhanced user experience through accurate and actionable insights powered by generative AI.
+* Improved system performance, scalability, and monitoring, ensuring robust and reliable AI-driven applications.
 
 ### **EPAM Systems | Travel & Leisure Project**
 *Full-Stack Engineer* | January 2023 - December 2023 (1 year)
