@@ -10,26 +10,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install Python
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          # Install a specific version of uv.
+          version: "0.6.1"
+
+      - name: "Set up Python"
         uses: actions/setup-python@v5
         with:
-          python-version: 3.12
-      - name: Install poetry
-        uses: abatilo/actions-poetry@v4
+          python-version-file: ".python-version"
+
+      - name: Define a cache dependency glob
+        uses: astral-sh/setup-uv@v5
         with:
-          poetry-version: "1.8.2"
-      - uses: actions/cache@v4
-        name: Define a cache for the virtual environment based on the dependencies lock file
-        with:
-          path: ./.venv
-          key: venv-${{ hashFiles('poetry.lock') }}
-      - name: Install the project dependencies
-        run: poetry install
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Install the project
+        run: uv sync --no-dev
+
       - name: Convert md to pdf
-        run: "poetry run export-cv -vvv"
+        run: uv run export_cv.py
         env:
           PHONE: ${{ secrets.PHONE }}
           EMAIL: ${{ secrets.EMAIL }}
+
       - name: Upload CVs
         uses: actions/upload-artifact@v4
         with:
